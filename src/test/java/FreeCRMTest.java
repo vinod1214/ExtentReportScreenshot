@@ -73,13 +73,13 @@ public class FreeCRMTest {
 		extentTest = extent.startTest("freeCrmTitleTest");
 		String title = driver.getTitle();
 		System.out.println(title);
-		Assert.assertEquals(title, "CRMPRO - CRM software for customer relationship management, sales, and support.123");
+		Assert.assertEquals(title, "CRMPRO - CRM software for customer relationship management, sales, and support.");
 	}
 	
 	@Test
 	public void freemCRMLogoTest(){
 		extentTest = extent.startTest("freemCRMLogoTest");
-		boolean b = driver.findElement(By.xpath("//img[@class='img-responsive111']")).isDisplayed();
+		boolean b = driver.findElement(By.xpath("//img[@class='img-responsive']")).isDisplayed();
 		Assert.assertTrue(b);
 	}
 	
