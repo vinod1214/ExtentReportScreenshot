@@ -73,7 +73,7 @@ public class FreeCRMTest {
 		extentTest = extent.startTest("freeCrmTitleTest");
 		String title = driver.getTitle();
 		System.out.println(title);
-		System.out.println("verifying title");
+		//System.out.println("verifying title");
 		Assert.assertEquals(title, "CRMPRO - CRM software for customer relationship management, sales, and support.");
 	}
 	
